@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Addition</string>
+    <string name="enter_the_value_of_n">Enter the Value of n</string>
+    <string name="error_postive_n">enter positive number\'\n</string>
+</resources>
