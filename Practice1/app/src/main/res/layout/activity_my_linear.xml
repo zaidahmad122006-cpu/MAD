@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03FFE6"
+    android:orientation="vertical"
+    tools:context=".myLinear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1835B6"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="47dp"
+            android:layout_height="151dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/images" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Welcome"
+            android:textColor="#FF0321"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Enter Student's name"
+            android:inputType="text"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/txtFn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Enter Father's name"
+            android:inputType="text"
+            android:text="Father's Name" />
+
+        <EditText
+            android:id="@+id/txtDept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Enter Department"
+            android:inputType="text"
+            android:text="Departmant" />
+
+        <EditText
+            android:id="@+id/txtSap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Enter Student ID Number"
+            android:inputType="text"
+            android:text="Sap ID" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:backgroundTint="#FFEB3B"
+        android:hint="Click to Save User Data"
+        android:text="Save"
+        android:textColor="#023FF6"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCounterApp"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="289dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#BBFD02"
+            android:text="Counter App"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>
